@@ -1,0 +1,131 @@
+ {
+    "description": "btcv yucheng",
+    "labels": {
+        "0": "background",
+        "1": "copper_pillar",
+        "3": "solder",
+        "6": "void"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "btcv",
+    "numTest": 20,
+    "numTraining": 80,
+    "reference": "Vanderbilt University",
+    "release": "1.0 06/08/2015",
+    "tensorImageSize": "3D",
+    "test": [
+        "imagesTs/zdb_logic_d1_b2_s7_5_void.nii.gz",
+        "imagesTs/zdb_logic_d1_b2_s7_90_void.nii.gz",
+        "imagesTs/zdb_logic_d1_b2_s7_126_void.nii.gz",
+        "imagesTs/zdb_logic_d1_b3_s1_0.nii.gz",
+        "imagesTs/zdb_logic_d1_b3_s1_1.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "imagesTr/B2_7_logic_66_void.nii.gz",
+            "label": "labelsTr/B2_7_logic_66_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_logic_seg15.nii.gz",
+            "label": "labelsTr/s2_logic_seg15.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_logic_seg42.nii.gz",
+            "label": "labelsTr/s2_logic_seg42.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_logic_seg48.nii.gz",
+            "label": "labelsTr/s2_logic_seg48.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_logic_seg86.nii.gz",
+            "label": "labelsTr/s2_logic_seg86.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_logic_seg131.nii.gz",
+            "label": "labelsTr/s2_logic_seg131.nii.gz"
+        },
+        {
+            "image": "imagesTr/s5_logic_seg9.nii.gz",
+            "label": "labelsTr/s5_logic_seg9.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_logic_seg7_void.nii.gz",
+            "label": "labelsTr/s6_logic_seg7_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_logic_seg8_void.nii.gz",
+            "label": "labelsTr/s6_logic_seg8_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_logic_seg9_void.nii.gz",
+            "label": "labelsTr/s6_logic_seg9_void.nii.gz"
+        },
+
+        {
+            "image": "imagesTr/s6_logic_seg10_void.nii.gz",
+            "label": "labelsTr/s6_logic_seg10_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_logic_seg12_void.nii.gz",
+            "label": "labelsTr/s6_logic_seg12_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_logic_seg13_void.nii.gz",
+            "label": "labelsTr/s6_logic_seg13_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s7_logic_seg36_void.nii.gz",
+            "label": "labelsTr/s7_logic_seg36_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s7_logic_seg46_void.nii.gz",
+            "label": "labelsTr/s7_logic_seg46_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s7_logic_seg88_void.nii.gz",
+            "label": "labelsTr/s7_logic_seg88_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b1_s1_6.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b1_s1_6.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b1_s1_105.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b1_s1_105.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b1_s7_13.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b1_s7_13.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b1_s7_74.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b1_s7_74.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "imagesTr/zdb_logic_d1_b2_s7_5_void.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b2_s7_5_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b2_s7_90_void.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b2_s7_90_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b2_s7_126_void.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b2_s7_126_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b3_s1_0.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b3_s1_0.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_logic_d1_b3_s1_1.nii.gz",
+            "label": "labelsTr/zdb_logic_d1_b3_s1_1.nii.gz"
+        }
+    ]
+}

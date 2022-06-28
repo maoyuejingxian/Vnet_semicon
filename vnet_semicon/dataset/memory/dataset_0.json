@@ -1,0 +1,243 @@
+ {
+    "description": "btcv yucheng",
+    "labels": {
+        "0": "background",
+        "1": "copper_pillar",
+        "3": "solder",
+        "6": "void"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "btcv",
+    "numTest": 20,
+    "numTraining": 80,
+    "reference": "Vanderbilt University",
+    "release": "1.0 06/08/2015",
+    "tensorImageSize": "3D",
+    "test": [
+        "imagesTs/zdb_logic_d1_b2_s7_5_void.nii.gz",
+        "imagesTs/zdb_logic_d1_b2_s7_90_void.nii.gz",
+        "imagesTs/zdb_logic_d1_b2_s7_126_void.nii.gz",
+        "imagesTs/zdb_logic_d1_b3_s1_0.nii.gz",
+        "imagesTs/zdb_logic_d1_b3_s1_1.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "imagesTr/06s32_void.nii.gz",
+            "label": "labelsTr/06s32_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/06s49_void.nii.gz",
+            "label": "labelsTr/06s49_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/06s63_void.nii.gz",
+            "label": "labelsTr/06s63_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/06s108_void.nii.gz",
+            "label": "labelsTr/06s108_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/06s117_void.nii.gz",
+            "label": "labelsTr/06s117_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/06s207_void.nii.gz",
+            "label": "labelsTr/06s207_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/b3_1_mem_68.nii.gz",
+            "label": "labelsTr/b3_1_mem_68.nii.gz"
+        },
+        {
+            "image": "imagesTr/b3_1_mem_82.nii.gz",
+            "label": "labelsTr/b3_1_mem_82.nii.gz"
+        },
+        {
+            "image": "imagesTr/r2_1s102_void.nii.gz",
+            "label": "labelsTr/r2_1s102_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/r2_1s122_void.nii.gz",
+            "label": "labelsTr/r2_1s122_void.nii.gz"
+        },
+
+        {
+            "image": "imagesTr/r2_1s132.nii.gz",
+            "label": "labelsTr/r2_1s132.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg1.nii.gz",
+            "label": "labelsTr/s1_mem_seg1.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg2.nii.gz",
+            "label": "labelsTr/s1_mem_seg2.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg6.nii.gz",
+            "label": "labelsTr/s1_mem_seg6.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg9.nii.gz",
+            "label": "labelsTr/s1_mem_seg9.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg13.nii.gz",
+            "label": "labelsTr/s1_mem_seg13.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg17.nii.gz",
+            "label": "labelsTr/s1_mem_seg17.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg21.nii.gz",
+            "label": "labelsTr/s1_mem_seg21.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg25.nii.gz",
+            "label": "labelsTr/s1_mem_seg25.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg47.nii.gz",
+            "label": "labelsTr/s1_mem_seg47.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg110.nii.gz",
+            "label": "labelsTr/s1_mem_seg110.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg119.nii.gz",
+            "label": "labelsTr/s1_mem_seg119.nii.gz"
+        },
+        {
+            "image": "imagesTr/s1_mem_seg214.nii.gz",
+            "label": "labelsTr/s1_mem_seg214.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_mem_seg19.nii.gz",
+            "label": "labelsTr/s2_mem_seg19.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_mem_seg56.nii.gz",
+            "label": "labelsTr/s2_mem_seg56.nii.gz"
+        },
+        {
+            "image": "imagesTr/s2_mem_seg59.nii.gz",
+            "label": "labelsTr/s2_mem_seg59.nii.gz"
+        },
+        {
+            "image": "imagesTr/s3_mem_seg27.nii.gz",
+            "label": "labelsTr/s3_mem_seg27.nii.gz"
+        },
+        {
+            "image": "imagesTr/s3_mem_seg70.nii.gz",
+            "label": "labelsTr/s3_mem_seg70.nii.gz"
+        },
+        {
+            "image": "imagesTr/s4_mem_seg25.nii.gz",
+            "label": "labelsTr/s4_mem_seg25.nii.gz"
+        },
+        {
+            "image": "imagesTr/s4_mem_seg77.nii.gz",
+            "label": "labelsTr/s4_mem_seg77.nii.gz"
+        },
+        {
+            "image": "imagesTr/s5_mem_seg85.nii.gz",
+            "label": "labelsTr/s5_mem_seg85.nii.gz"
+        },
+        {
+            "image": "imagesTr/s5_mem_seg188.nii.gz",
+            "label": "labelsTr/s5_mem_seg188.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg70.nii.gz",
+            "label": "labelsTr/s6_mem_seg70.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg79.nii.gz",
+            "label": "labelsTr/s6_mem_seg79.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg82.nii.gz",
+            "label": "labelsTr/s6_mem_seg82.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg83.nii.gz",
+            "label": "labelsTr/s6_mem_seg83.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg84.nii.gz",
+            "label": "labelsTr/s6_mem_seg84.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg111.nii.gz",
+            "label": "labelsTr/s6_mem_seg111.nii.gz"
+        },
+        {
+            "image": "imagesTr/s6_mem_seg174_void.nii.gz",
+            "label": "labelsTr/s6_mem_seg174_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/s7_mem_seg31.nii.gz",
+            "label": "labelsTr/s7_mem_seg31.nii.gz"
+        },
+        {
+            "image": "imagesTr/s7_mem_seg86.nii.gz",
+            "label": "labelsTr/s7_mem_seg86.nii.gz"
+        },
+        {
+            "image": "imagesTr/s8_mem_seg33.nii.gz",
+            "label": "labelsTr/s8_mem_seg33.nii.gz"
+        },
+        {
+            "image": "imagesTr/s8_mem_seg43.nii.gz",
+            "label": "labelsTr/s8_mem_seg43.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "imagesTr/s8_mem_seg133.nii.gz",
+            "label": "labelsTr/s8_mem_seg133.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b1_s1_12.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b1_s1_12.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b1_s1_237.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b1_s1_237.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b1_s7_37.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b1_s7_37.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b1_s7_62.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b1_s7_62.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b2_s1_1.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b2_s1_1.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b2_s1_2_void.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b2_s1_2_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b2_s1_173_void.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b2_s1_173_void.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b3_s1_0.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b3_s1_0.nii.gz"
+        },
+        {
+            "image": "imagesTr/zdb_memory_d1_b3_s1_1.nii.gz",
+            "label": "labelsTr/zdb_memory_d1_b3_s1_1.nii.gz"
+        }
+    ]
+}
